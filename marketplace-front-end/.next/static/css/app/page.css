@@ -1,0 +1,189 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_leftPanel__LIdng {
+  background: #f4f5f6;
+  padding: 2.5rem;
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.page_logoTop__vPMxa {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  align-self: flex-start;
+}
+.page_centerText__2dF5H {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.page_title__3jonF {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a232e;
+  margin-bottom: 0.25rem;
+}
+.page_subtitle__iAJUg {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+.page_copyright__2iVAs {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #a0aec0;
+  position:static;
+}
+
+.page_registerCard__rvulU {
+  width: 900%;
+  max-width: 780px;
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.06);
+  border: 1px solid #d1d1d1;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: auto;
+  gap: 0;
+}
+@media (min-width: 768px) {
+  .page_registerCard__rvulU {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+  }
+}
+.page_registerText__ovSLG {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.page_registerTitle__epYD2 {
+  font-size: 1.110rem;
+  font-weight: bold;
+  color: #0C0D0D;
+  margin-right: 0.5rem;
+}
+.page_registerSubtitle__S7vtK {
+  font-size: 1rem;
+  color: #495D69;
+}
+.page_registerBtn__1m6FI {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a232e;
+  background: #fff;
+  transition: background 0.2s;
+  margin-left: 0;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .page_registerBtn__1m6FI {
+    margin-left: auto;
+    margin-top: 0;
+  }
+}
+.page_registerBtn__1m6FI:hover {
+  background: #f6f7f8;
+}
+
+.page_loginTitle__Fg5lJ {
+  color: #0C0D0D;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;      
+}
+.page_inputPlaceholder____Bgo::placeholder {
+  color: #0C0D0D;
+  font-weight: 400;
+  opacity: 1;
+  font-size: 0.88rem;
+}
+
+.page_formLabel__TyU1f {
+  color: #0C0D0D;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.page_rightIcon__BxIiM {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.page_loginButton__KoiDv {
+  height: 38px;
+  width: 110px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.page_inputWrapper__ApSA2 {
+  position: relative;
+  width: 320px;
+  height: 48px;
+  background: #f6f7f8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.page_inputIcon__mASPH {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.page_inputField__5Rb24 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: #f6f7f8;
+  padding: 8px 16px 8px 44px;
+  font-size: 1rem;
+  color: #0C0D0D;
+  border-radius: 8px;
+}
+
+.page_forgotLink__yWy_5 {
+  font-size: 0.89rem;
+  font-weight: 600;
+  color: #253142;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.page_forgotLink__yWy_5:hover {
+  color: #0C0D0D;
+}
+

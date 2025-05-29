@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  /* Figma-style diagonal lines background */
+  background-image: url('data:image/svg+xml;utf8,<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="1440" height="900" fill="%23E3E3E3"/><polygon points="0,0 800,0 0,900" fill="%23E0E0E0"/><polygon points="1440,0 1440,900 800,900" fill="%23E0E0E0"/></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Hide Next.js dev overlay/floating indicator */
+[data-nextjs-dev-overlay], #__nextjs-dev-overlay, .nextjs-portal, [class*="nextjs"]:has(> span), [class*="nextjs"]:has(> div) {
+  display: none !important;
+}
+
+input, textarea, select {
+  color: #696f75 !important;
+  opacity: 1 !important;
+  background-color: #d5d5d5 !important;
+}
+
+table, th, td, tr {
+  color: #1C2834 !important;
+  opacity: 1 !important;
+}
+
+.bg-white, .rounded-2xl, .store-card {
+  background-color: #ffffff !important;
+  border: 1px solid #9399a5 !important;
+  box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.08), 0 1.5px 4px 0 rgba(44, 62, 80, 0.03) !important;
+  color: #1C2834 !important;
+}
+
