@@ -1,0 +1,10 @@
+# Node.js dependencies
+marketplace-front-end/node_modules/
+
+# build/dist output
+marketplace-front-end/dist/
+marketplace-front-end/build/
+
+# OS or editor files
+.DS_Store
+*.log
